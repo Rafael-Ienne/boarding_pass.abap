@@ -7,7 +7,7 @@ Elaboração de um Smartform na forma de um boarding pass, criado a partir do pr
 - Tela de seleção;
 - Módulo de função(SE37).
 
- ## Estrutura(workarea) para armazenar os dados do viajante
+ ## Estrutura (workarea) para armazenar os dados do viajante
 ![Estrutura(workarea) para armazenar os dados do viajante](https://raw.githubusercontent.com/Rafael-Ienne/boarding_pass.abap/main/img/traveler_structure.png)
 ## Tela de seleção vazia
 ![Tela de seleção vazia](https://raw.githubusercontent.com/Rafael-Ienne/boarding_pass.abap/main/img/empty_selection_screen.png)
