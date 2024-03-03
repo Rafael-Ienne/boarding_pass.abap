@@ -14,6 +14,6 @@ Elaboração de um Smartform na forma de um boarding pass, criado a partir do pr
 ## Tela de seleção preenchida
 ![Tela de seleção preenchida](https://raw.githubusercontent.com/Rafael-Ienne/boarding_pass.abap/main/img/filled_selection_screen.png)
 ## Boarding pass com os dados do viajante
-![Boarding pass com os dados do viajante](https://raw.githubusercontent.com/Rafael-Ienne/boarding_pass.abap/main/img/boardingpass.png)
+![Boarding pass com os dados do viajante](https://raw.githubusercontent.com/Rafael-Ienne/boarding_pass.abap/main/img/final_boarding_pass.png)
 
 
