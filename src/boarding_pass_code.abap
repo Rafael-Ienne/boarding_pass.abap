@@ -22,7 +22,7 @@ PARAMETERS: p_name(30) TYPE c OBLIGATORY, "Nome do passageiro
             p_gate(50) TYPE c OBLIGATORY, "Portão
             p_seat     TYPE int1 OBLIGATORY, "Numero do assento
             p_class    TYPE c OBLIGATORY, "Classe do passageiro
-            p_airl(3)  TYPE c OBLIGATORY. "Iniciais da airline
+            p_airl     TYPE spfli-carrid OBLIGATORY. "Iniciais da airline
 SELECTION-SCREEN: END OF BLOCK b1.
 
 "Calcula a diferença entre a data de partida e a data atual
@@ -124,7 +124,6 @@ ELSE.
 ENDIF.
 
 FORM f_difference_between_dates USING p_departure_date.
-
   CLEAR: date_difference.
 
   date_difference = ( p_departure_date+0(4) * 365 + p_departure_date+4(2) * 30 + p_departure_date+6(2) ) -
